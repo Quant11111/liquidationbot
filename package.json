@@ -1,0 +1,20 @@
+{
+  "name": "liquidationbot",
+  "version": "1.0.0",
+  "description": "Bot de liquidation pour le protocole Morpho utilisant des flashloans",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ethers": "^5.7.2",
+    "web3": "^1.10.0",
+    "@aave/protocol-js": "^4.3.0",
+    "node-cron": "^3.0.2",
+    "axios": "^1.4.0"
+  },
+  "author": "",
+  "license": "MIT"
+}
